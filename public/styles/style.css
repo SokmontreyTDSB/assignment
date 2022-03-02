@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+@import url('./common.module.css');
+@import url('./home.module.css');
+@import url('./explore.module.css');
+@import url('./element.module.css');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    font-size: 16px;
+
+    --primary-font: 'DM Serif Display', serif;
+    font-family: var(--primary-font);
+    --padding: 4.125rem;
+
+    --primary-color: #DD6262;
+
+    --dark: #2D1F1C;
+    --light: #FFFFFF;
+    --light-gray: #B9B6B6;
+    --back-light: #E8DAC6;
+    --dark-gray: #9A9A9A;
+    --giphy-color: #4CB3CA;
+    --printerest-color: #CA4C4C;
+    --behance-color: #E1E1E1;
+    --wikipedia-color: #1D7F95;
+
+}
+
+
+

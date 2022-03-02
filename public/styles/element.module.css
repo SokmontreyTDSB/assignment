@@ -1,0 +1,18 @@
+/* p{ line-height: 3rem; } */
+a{
+    text-decoration: none;
+    padding-right: calc(var(--padding)*0.5);
+    color: var(--light);
+}
+a:hover{
+    transform: translate(0,-0.2rem);
+    transition: all 0.2s;
+    text-decoration: underline;
+}
+button{
+    outline: none;
+    border: none;
+    font-family: var(--primary-font);
+    padding: calc(var(--padding)*0.2) calc(var(--padding)*0.6);
+    transition: all 0.2s;
+}

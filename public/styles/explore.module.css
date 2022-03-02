@@ -1,0 +1,38 @@
+#explore-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--back-light);
+    color: var(--dark);
+}
+#explore-topbar{
+    justify-content: space-between;
+    height: 8vh;
+}
+#explore-topbar button,
+#explore-topbar p{
+    padding: calc(var(--padding)*0.3) calc(var(--padding)*0.4);
+}
+
+#explore-body{
+    flex: 1;
+    height: 92vh;
+}
+#explore-left{
+    width: 59.16vw;
+    padding: var(--padding);
+    padding-right: calc(var(--padding)*0.3); 
+    padding-top: calc(var(--padding)*0.3); 
+}
+#explore-right{
+    width: 40.84vw;
+    overflow: scroll;
+    padding: var(--padding);
+    padding-bottom: none;
+}
+.explore-image-container{
+    border-radius: 30px;
+    width: 15rem;
+    height: 15rem;
+    background-color: var(--light-gray);
+    margin: calc(var(--padding)*0.5);
+}
